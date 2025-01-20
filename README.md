@@ -38,7 +38,8 @@
   Installation: [Get Java](https://www.oracle.com/java/technologies/downloads/#java21).
 - **Docker**:  
   Installation: [Get Docker](https://docs.docker.com/engine/install/).
-- **Syft CLI**: For running application directly from jar.  
+- **Syft CLI**: For running application directly from jar(not a prerequisite for docker image/macos binary because they are handling it automatically).
+  
   Installation: [Get Syft CLI](https://github.com/anchore/syft?tab=readme-ov-file#installation).
 
 
