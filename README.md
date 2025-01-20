@@ -1,7 +1,9 @@
 # SbomGen
 
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/007vedant/SbomGen)
+[![license](https://img.shields.io/badge/License-Apache%202.0-red.svg)](LICENSE)
+[![v1.0.0-macos](https://img.shields.io/badge/release-v1.0.0-green)](https://github.com/007vedant/SbomGen/releases/tag/v1.0.0-docker)
+[![v1.0.0-docker](https://img.shields.io/badge/release-v1.0.0-blue)](https://github.com/007vedant/SbomGen/releases/tag/v1.0.0-macos)
+
 
 **SbomGen** is a command-line application designed for generating Software Bill of Materials (SBOMs) and searching for packages within container images. It integrates seamlessly with [Syft](https://github.com/anchore/syft) to support popular SBOM formats like SPDX and CycloneDX.
 
