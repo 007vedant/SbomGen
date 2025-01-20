@@ -1,0 +1,44 @@
+{
+  "filesAnalyzed": true,
+  "licenseConcluded": "NOASSERTION",
+  "SPDXID": "SPDXRef-Package-apk-libcrypto3-6e219e09e5049759",
+  "externalRefs": [
+    {
+      "referenceLocator": "cpe:2.3:a:libcrypto3:libcrypto3:3.3.2-r4:*:*:*:*:*:*:*",
+      "referenceType": "cpe23Type",
+      "referenceCategory": "SECURITY"
+    },
+    {
+      "referenceLocator": "cpe:2.3:a:libcrypto3:libcrypto:3.3.2-r4:*:*:*:*:*:*:*",
+      "referenceType": "cpe23Type",
+      "referenceCategory": "SECURITY"
+    },
+    {
+      "referenceLocator": "cpe:2.3:a:libcrypto:libcrypto3:3.3.2-r4:*:*:*:*:*:*:*",
+      "referenceType": "cpe23Type",
+      "referenceCategory": "SECURITY"
+    },
+    {
+      "referenceLocator": "cpe:2.3:a:libcrypto:libcrypto:3.3.2-r4:*:*:*:*:*:*:*",
+      "referenceType": "cpe23Type",
+      "referenceCategory": "SECURITY"
+    },
+    {
+      "referenceLocator": "pkg:apk/alpine/libcrypto3@3.3.2-r4?arch=aarch64&distro=alpine-3.21.2&upstream=openssl",
+      "referenceType": "purl",
+      "referenceCategory": "PACKAGE-MANAGER"
+    }
+  ],
+  "description": "Crypto library from openssl",
+  "downloadLocation": "https://www.openssl.org/",
+  "versionInfo": "3.3.2-r4",
+  "originator": "Person: Natanael Copa (ncopa@alpinelinux.org)",
+  "sourceInfo": "acquired package info from APK DB: /lib/apk/db/installed",
+  "packageVerificationCode": {
+    "packageVerificationCodeValue": "706c627546c022efbaeb5e4fe1956c83a49199c5"
+  },
+  "supplier": "Person: Natanael Copa (ncopa@alpinelinux.org)",
+  "name": "libcrypto3",
+  "licenseDeclared": "Apache-2.0",
+  "copyrightText": "NOASSERTION"
+}
