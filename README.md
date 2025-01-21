@@ -23,7 +23,7 @@
 - [Getting Started](#getting-started)
     - [Prerequisites](#prerequisites)
     - [Build Instructions](#build-instructions)
-    - [Installation Instructions](#installation-instructions)
+    - [Installation Instructions](#installation-instructions-from-releases)
 - [Usage](#usage)
     - [Running Application](#running-application)
     - [Command Examples](#command-examples)
@@ -39,26 +39,34 @@
 - **Docker**:  
   Installation: [Get Docker](https://docs.docker.com/engine/install/).
 - **Syft CLI**: For running application directly from jar(not a prerequisite for docker image/macos binary because they are handling it automatically).
-  
+
   Installation: [Get Syft CLI](https://github.com/anchore/syft?tab=readme-ov-file#installation).
 
 
 ### Build Instructions
-1. Download the Project
-   Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/007vedant/SbomGen.git
 cd SbomGen
 ```
 
 2. Build the Project
-   Using Maven:
+   using Maven:
 ```bash
 mvn clean package
 ```
 This generates a JAR file at `target/SbomGen-1.0.0-jar-with-dependencies.jar`.
 
-### Installation Instructions
+3. Build the image from Dockerfile:
+```bash
+docker build -t sbomgen .
+```
+This creates a new image named `sbomgen`. Verify it using:
+```bash
+docker images
+```
+
+### Installation Instructions (from releases)
 #### MacOS Binary
 **1. Download and Extract**
 - Download the tar file from the Assets section below.
